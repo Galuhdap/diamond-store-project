@@ -1,13 +1,13 @@
-# Base Project Flutter
+# Diamond Store Project Flutter
 
 ## Author
-BIGIO.ID Mobile Team
+codenthusiast.id Mobile Team
 
 ## Date
 15 Jun 2024
 
 ## Project Description
--
+Sell Diamond Game
 
 
 ## Getting started
@@ -18,17 +18,16 @@ BIGIO.ID Mobile Team
 - IDE of your choice (e.g., VS Code, or Android Studio)
 
 - add in dev_dependencies
-  build_runner: ^2.4.11
-  flutter_gen_runner: ^5.5.0+1
+  - build_runner: ^2.4.11
+  - flutter_gen_runner: ^5.5.0+1
 
-- when you add image static or icon 
-  - just run 
+- when you add image static or icon just run 
    - dart run build_runner build
 
 **Installation :**
 
 1. Clone the repository
-`git clone https://github.com/Galuhdap/base-project-flutter`
+`git clone `https://github.com/Galuhdap/diamond-store-project`
 2. Navigate to project directory
 `cd diamond-store-flutter`
 3. Install Dependencies
