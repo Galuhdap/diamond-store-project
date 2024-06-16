@@ -42,7 +42,7 @@ Sell Diamond Game
 1. **VS Code**
 
         {
-            "name": "Prod Base Project",
+            "name": "Prod DS Project",
             "type": "dart",
             "request": "launch",
             "program": "lib/main_prod.dart",
@@ -53,7 +53,7 @@ Sell Diamond Game
             ]
         },
         {
-            "name": "Dev Base Project",
+            "name": "Dev DS Project",
             "type": "dart",
             "request": "launch",
             "program": "lib/main_dev.dart",
