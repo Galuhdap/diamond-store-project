@@ -10,7 +10,7 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Base Projet',
-      initialRoute: AppRoutes.login,
+      initialRoute: AppRoutes.dashboard,
       theme: ThemeConfig.lightMode,
       debugShowCheckedModeBanner: false,
       getPages: AppRoutes.routes,
