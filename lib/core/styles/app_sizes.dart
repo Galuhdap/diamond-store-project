@@ -38,6 +38,7 @@ class AppSizes {
   static double s35 = 35.0;
   static double s38 = 38.0;
   static double s40 = 40.0;
+  static double s41 = 41.0;
   static double s45 = 45.0;
   static double s48 = 48.0;
   static double s50 = 50.0;
@@ -207,6 +208,7 @@ class AppSizes {
     s30 = ScreenUtil().setWidth(30.0);
     s35 = ScreenUtil().setWidth(35.0);
     s40 = ScreenUtil().setWidth(40.0);
+    s41 = ScreenUtil().setWidth(41.0);
     s45 = ScreenUtil().setWidth(45.0);
     s48 = ScreenUtil().setWidth(48.0);
     s50 = ScreenUtil().setWidth(50.0);

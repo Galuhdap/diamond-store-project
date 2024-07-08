@@ -7,9 +7,24 @@ class AppConstants {
   // Input Hint
   static const String HINT_EMAIL = "Masukkan email";
   static const String HINT_PASSWORD = "Masukkan password";
+  static const String HINT_PHONE_NUMBER = "Phone Number";
 
   // Button Text
   static const String ACTION_LOGIN = "Login";
+  static const String ACTION_TRACK_ORDER = "Lacak Pesanan";
+
+  // History
+  static const String LABEL_HISTORY = "Riwayat";
+  static const String LABEL_TRACK_YOUR_ORDER = "Track Your Order :";
+
+  //Game
+  static const String LABEL_MOBILE_LEGEND = "Mobile Legends";
+  static const String LABEL_FREE_FIRE = "Free Fire";
+  static const String LABEL_VALORANT = "Valorant";
+
+  //Status
+   static const String LABEL_PENDING = "Pending";
+   static const String LABEL_COMPLETE = "Complete";
 
   // Regular date format
   static const regularDateFormat = "EEEE, dd-MM-yyyy";
