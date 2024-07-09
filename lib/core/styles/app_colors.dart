@@ -10,9 +10,12 @@ class AppColors {
   static const colorBgBlue = Color.fromARGB(99, 79, 129, 198);
 
   static const colorRed = Color.fromARGB(255, 198, 79, 79);
-   static const colorLightRed = Color(0xfffF44336);
-   static const colorDarkRed = Color(0xfffE82529);
+  static const colorLightRed = Color(0xfffF44336);
+  static const colorDarkRed = Color(0xfffE82529);
   static const colorBgRed = Color.fromARGB(97, 198, 79, 79);
+
+  static const colorStatusOrange = Color(0xfffFF832B);
+  static const colorStatusGreen = Color(0xfff1ED760);
 
   static const colorGrayBorder = Color(0xFFBDBDBD);
 
@@ -29,6 +32,8 @@ class AppColors {
   static const colorGray = Color(0xFFA6A6A6);
   static const colorDarkGray = Color(0xFF858585);
   static const colorSilverGray = Color(0xFF5B5B5D);
+  static const colorSilverLightGray = Color(0xFFFF4F4F4);
+  static const colorGrayWhite = Color(0xFFFC4C4C4);
 
   static const colorBgLightGray = Color.fromARGB(121, 232, 232, 232);
   static const colorBgVeryLightGray = Color.fromARGB(255, 238, 238, 238);

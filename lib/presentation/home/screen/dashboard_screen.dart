@@ -1,6 +1,7 @@
 import 'package:diamond_store/core/assets/assets.gen.dart';
 import 'package:diamond_store/core/config/theme_config.dart';
 import 'package:diamond_store/core/styles/app_colors.dart';
+import 'package:diamond_store/presentation/history/screen/history_screen.dart';
 import 'package:diamond_store/presentation/home/screen/home_screen.dart';
 import 'package:diamond_store/presentation/home/widgets/nav_items_widget.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
   final List<Widget> _pages = [
     const HomeScreen(),
-    const HomeScreen(),
+    HistoryScreen(),
    const HomeScreen(),
   ];
 
