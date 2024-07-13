@@ -4,6 +4,7 @@ import 'package:diamond_store/core/styles/app_colors.dart';
 import 'package:diamond_store/presentation/history/screen/history_screen.dart';
 import 'package:diamond_store/presentation/home/screen/home_screen.dart';
 import 'package:diamond_store/presentation/home/widgets/nav_items_widget.dart';
+import 'package:diamond_store/presentation/profile/screens/profile_screen.dart';
 import 'package:flutter/material.dart';
 
 
@@ -18,9 +19,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = [
-    const HomeScreen(),
+    HomeScreen(),
     HistoryScreen(),
-   const HomeScreen(),
+    ProfileScreen(),
   ];
 
   void _onItemTapped(int index) {
