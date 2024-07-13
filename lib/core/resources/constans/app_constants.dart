@@ -2,7 +2,8 @@ class AppConstants {
   // Text Label
   static const String LABEL_EMAIL = "Email";
   static const String LABEL_PASSWORD = "Password";
-  static const String LABEL_SEARCH = "Mau cari komoditas apa?";
+  static const String LABEL_USERNAME = "Username";
+  static const String LABEL_PHONE_NUMBER = "Phone Number";
 
   // Input Hint
   static const String HINT_EMAIL = "Masukkan email";
@@ -25,6 +26,17 @@ class AppConstants {
   //Status
    static const String LABEL_PENDING = "Pending";
    static const String LABEL_COMPLETE = "Complete";
+
+  //Profile
+  static const String LABEL_PROFILE = "Profile";
+  static const String LABEL_PROFILE_PICTURE = "Profile Picture";
+  static const String LABEL_SAVE_PROFILE = "Simpan Profile";
+  static const String LABEL_UPLOAD_PHOTO = "Upload Photo";
+  static const String LABEL_GENERAL_INFORMATION = "General Information";
+  static const String LABEL_EDIT_PROFILE = "Edit Profile";
+  static const String LABEL_DELETE_AKUN = "Delete Akun";
+  static const String LABEL_LOGOUT = "Logout";
+
 
   // Regular date format
   static const regularDateFormat = "EEEE, dd-MM-yyyy";
